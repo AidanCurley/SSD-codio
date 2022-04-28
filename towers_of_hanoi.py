@@ -12,7 +12,7 @@ def hanoi(n, source, helper, target):
         hanoi(n-1, helper, source, target)
 
 
-A = [4, 3, 2, 1]
+A = ['*******', ' ***** ', '  ***  ', '   *   ']
 B = []
 C = []
 
